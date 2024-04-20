@@ -1,0 +1,35 @@
+.menu-container{
+  @include display(flex,flex-start,center);
+  border-bottom: solid rgb(239, 236, 236) 2px;
+  .location-icon, .search-icon, 
+  .menu-icon, .cart-icon{
+    @include iconStyles();
+  } 
+}
+
+.menu-icon {
+  margin-left: -20px;
+  .bar {
+    width: 18px;
+    height: 2px;
+    background-color: #333;
+    margin: 4px 0;
+  }
+}
+
+.cart-icon{
+ margin-bottom: 10px;
+ padding-right: 10px;
+ color: black;
+
+}
+
+
+.image-icon{ 
+  flex: 4;
+  .image-logo{
+    width: 220px;
+  }
+}
+
+

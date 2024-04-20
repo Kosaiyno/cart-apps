@@ -1,0 +1,44 @@
+.footer-body{
+  margin-top: 50px;
+  background-color: rgb(39, 38, 38);
+  height: auto;
+  width: $fullWidth;
+  .footer-image{
+    display: flex;
+    @include display(flex,center,center);
+   img{
+     padding: 30px;
+   }
+  }
+  .button-container{
+    @include display(flex,center,center);
+    flex-direction: column;
+    button{
+      margin-bottom: 10px;
+      height: 50px;
+      width: 450px;
+      font-size: 13px;
+      font-weight: bold;
+      color: gray;
+      background-color: transparent;
+
+    }
+  }
+  .footer-ending{
+    margin-top: 15px;
+    color:white;
+    @include display(flex,center,center);
+    flex-direction: column; 
+    p{
+      margin-bottom: 1px;
+      margin-top: 5px;
+      font-size: 13px;
+    }
+    div{
+      margin-top: 20px;
+      margin-bottom: 40px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  }
+}

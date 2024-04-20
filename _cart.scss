@@ -1,0 +1,88 @@
+.cart-page{
+  margin-bottom: 40px;
+  .cart-header{
+    font-size: 50PX;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: rgb(71, 67, 67);
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid;
+    border-color: rgb(227, 224, 224);
+    border-width: 0.5px;
+    border-right: none;
+    border-left: none;
+  }
+  div{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .cart-item{
+    background-color: white;
+    border-bottom: solid rgb(247, 220, 171) 0.5px;
+    p{
+      font-size:12px ;
+      font-weight: bold;
+      color:rgb(192, 134, 26);
+      margin-left: 12px;
+    }
+    .price{
+      padding-right: 10px;
+      display: flex;
+      div{margin-left: 60px;
+      }
+    }
+    .quantity-box{
+      display: flex;
+      margin-top: 20px;
+      .quantity-container{
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .quantity-number{
+          display: flex;
+          margin-left: 5px;
+          margin-top: -6px;
+          background-color: rgb(255, 250, 250);
+          padding: 10px 25px;
+          border: solid;
+          border-width: 0.5px;
+          border-color: rgb(206, 203, 203);
+        }
+        .quantity-signs{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-left: -15px;
+          margin-top: -5px;
+        }
+        button{
+          width: 30px;
+          height: 24px;
+          border: solid 0.2px rgb(222, 215, 215);
+         
+        }
+      }
+      
+    }
+    .total{
+      display: flex;
+      div{margin-left: 60px;
+      }
+    }
+    .remove-button{
+      margin-bottom: 10px;
+      margin-left: 350px;
+      height: 30px;
+      background-color: rgb(183, 154, 101);
+      border: 0.2px;
+      border-radius: 3px;
+    }
+  }
+}
+

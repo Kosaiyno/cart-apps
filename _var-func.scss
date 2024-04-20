@@ -1,0 +1,16 @@
+$fullWidth:100%;
+$productDivWidth:220px;
+$cursor:pointer;
+
+@mixin display($display, $justify, $align){
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin iconStyles{
+  display: inline-block;
+  cursor: $cursor;
+  flex: 1; 
+  margin-top: -10px;
+}

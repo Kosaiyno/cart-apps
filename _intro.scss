@@ -1,0 +1,44 @@
+
+.intro-image{
+  height:100% ;
+  width: $fullWidth;
+  object-fit: cover;
+}
+
+.intro-image-container{
+ width: $fullWidth;
+ height: 120px;
+ 
+}
+
+.the-intro {
+  @include display(flex,center,center);
+  height: 250px;
+
+  p{
+    color: #800000;
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+}
+
+ 
+ .the-intro-2{
+  @include display(flex,center,center);
+  margin-top: -50px;
+  width: 500px;
+  height: 100px;
+
+  p{
+    text-align: justify;
+    color: rgb(96, 95, 95);
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 14px;
+    word-wrap: break-word;
+   }
+ }
+ 

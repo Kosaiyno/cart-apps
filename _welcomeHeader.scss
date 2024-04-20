@@ -1,0 +1,24 @@
+
+.welcome-message{
+  display: flex;
+  justify-content: center;
+  background-color:rgb(91, 174, 91);
+  height: 55px;
+  width: $fullWidth;
+  margin-right: 0px;
+  padding: 0;
+
+  .message-text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: large;
+    opacity: 1;
+    transition: opacity ease-in;
+  }
+}
+
+
+.message-text.show {
+  opacity: 1;
+}

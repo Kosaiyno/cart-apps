@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/500x659/products/2505/8628/duck_prosciutto-1__84543.1635344186.jpg?c=2",
+      "name": "SMOKING GOOSE WHOLE DUCK PROSCIUTTO",
+      "details": "Luscious, smooth, and nuanced sweetness",
+      "stars": 2,
+      "price": 19.99
+    },
+    {
+      "id": 2,
+      "img": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/500x659/products/1776/10699/Charcuterie_collection_2023__48889.1697727175.jpg?c=2",
+      "name": "THE CHARCUTERIE COLLECTION",
+      "details": "\"Cure\" their charcuterie obsession.",
+      "stars": 5,
+      "price": 129.99
+    },
+    {
+      "id": 3,
+      "img": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/500x659/products/852/1225/SmokingGooseDodgeCity_web_2_edited_db__71826.1433348351.jpg?c=2",
+      "name": "SMOKING GOOSE DODGE CITY SALAME",
+      "details": "Delicious with Smoking Goose Meatery's trademark funk.",
+      "stars": 4,
+      "price": 14.99
+    },
+    {
+      "id": 4,
+      "img": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/500x659/products/100/951/LaQuerciaProsciutto_web_4_edited_db__57745.1637003671.jpg?c=2",
+      "name": "LA QUERCIA PROSCIUTTO",
+      "details": "Thinly-sliced, delicately prepared with a fine balance of salty and sweet",
+      "stars": 5,
+      "price": 11.99
+    },
+    {
+      "id": 5,
+      "img": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/500x659/products/1953/5735/meat-bouquetoprah__75452.1579530432.jpg?c=2",
+      "name": "OLYMPIA PROVISIONS SALAMI BOUQUET",
+      "details": "Brighten their day & fill their tummies!",
+      "stars": 5,
+      "price": 99.99
+    },
+    {
+      "id": 6,
+      "img": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/500x659/products/1323/3554/italian-meal-kit-hoagie-phi__44292.1509653053.1280.1280__12354.1511178026.1280.1280__26704.1626112868.jpg?c=2",
+      "name": "ITALIAN HOAGIE KIT",
+      "details": "Load up for Game Day or gift a hoagie.",
+      "stars": 5,
+      "price": 119.99
+    },
+    {
+      "id": 7,
+      "img": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/500x659/products/3218/10534/Salt_Twine_Salami_Bistro-JonathanArena-08-29-2022__02884.1679488455.jpg?c=2",
+      "name": "SALT & TWINE UNCURED CLASSIC BISTRO SALAMI",
+      "details": "A tender treat crafted from heritage breed pork.",
+      "stars": 5,
+      "price": 12.99
+    },
+    {
+      "id": 8,
+      "img": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/500x659/products/3055/9869/salt-twine-bourbon__00155.1679062373.jpg?c=2",
+      "name": "SALT & TWINE UNCURED BACON & BOURBON SALAMI",
+      "details": "A tender treat crafted from heritage breed pork and authentic Kentucky bourbon.",
+      "stars": 5,
+      "price": 12.99
+    },
+    {
+      "id": 9,
+      "img": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/500x659/products/1541/4120/nduja-cremosa-tartufata__82463.1592230352.jpg?c=2",
+      "name": "NDUJA CREMOSA TARTUFATA",
+      "details": "Deep-flavored truffle salami spread.",
+      "stars": 4,
+      "price": 15.99
+    },
+    {
+      "id": 10,
+      "img": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/500x659/products/3264/10829/fishwife-lemon-sardines-removebg-preview__65871.1699397920.png?c=2",
+      "name": "SARDINES WITH PRESERVED LEMON",
+      "details": "Sourced directly from the seas off the Iberian peninsula.",
+      "stars": 0,
+      "price": 11.99
+    }
+  ]
+}

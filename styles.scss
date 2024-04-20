@@ -1,0 +1,67 @@
+@import "./var-func";
+@import "./body";
+@import "./welcomeHeader";
+@import "./menu";
+@import "./intro";
+@import "./cart";
+@import "./totals";
+@import "./footer";
+@import "./modal";
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.product {
+  @include display(flex,space-between,center);
+  flex-direction: column;
+  margin: 10px; /* Add margin between products */
+  text-align: center;
+  width:$productDivWidth;
+  height: 100;
+
+  .star-rating,.product-price,
+  .add-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+.product-img {
+  width: $productDivWidth;
+}
+
+.product-name{
+  font-size:12px ;
+  font-weight:bold;
+  margin-bottom: 10px;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.product-details{
+  font-size: 14px;
+  text-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 6px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+
+.star-rating{
+  color: rgb(205, 136, 10);
+}
+
+.product-price{
+ font-weight:500;
+}
+
+.add-button{
+  width: $productDivWidth; 
+  height: 35px;
+  background-color:#a34d18;
+  color: white;
+  border: none;
+}
+
